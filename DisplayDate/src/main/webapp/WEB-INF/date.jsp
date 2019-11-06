@@ -5,6 +5,7 @@
   Time: ${TIME}
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -16,6 +17,5 @@
     <div id="container">
         <h1 id="dateoutput"><c:out value="${date}"/></h1>
     </div>
-<c:out value="${date}"/>
 </body>
 </html>
